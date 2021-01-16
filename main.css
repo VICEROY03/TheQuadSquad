@@ -11,17 +11,54 @@ body {
     font-family: 'Potta One', cursive;
     font-size: 150pt;
     text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
-#particles.js{
-    position: absolute;
-    opacity: 100%;
-    width: 100%; 
-    height: 100%; 
-    background-color: #b61924; 
-    background-image: url(""); 
-    background-position: 50% 50%;
-}
-#website{
-    position: relative;
 
+.team {
+    background: transparent;
+    font-family: 'Cinzel', serif;
+    font-size: 60pt;
+    text-align: center;
+    margin-top: 5px;
+}   
+
+
+
+
+.overview {
+    height: 300px;
+    width: 45%;
+    float: left;
+    margin-bottom: 70px;
+    font-size: 30px;
+    font-family: 'Yusei Magic', sans-serif;
+    color: rgb(71, 70, 70);
+}
+
+.buttons {
+    
+    height: 300px;
+    width: 45%;
+    float: right;
+    margin-bottom: 70px;
+}
+
+.button1 {
+    align-content: center;
+    height: 80px;
+    width: 500px;
+    border-radius: 150px;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 50px;
+    text-align: center;
+    background: rgb(56, 126, 231);
+
+}
+
+.button1:hover{
+    color: rgb(56, 126, 231);
+    background-color: black;
+    box-shadow: rgb(56, 126, 231) 10px 10px 10px 0;
+    text-shadow: burlywood 10px 10px 10px 0px ;
 }
