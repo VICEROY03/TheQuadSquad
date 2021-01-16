@@ -1,0 +1,31 @@
+*{
+    font-family: 'Russo One', sans-serif;    
+}
+body{
+    padding: 20px;
+    background: linear-gradient(30deg, grey, rgb(241, 120, 142));
+}
+
+img{
+    
+    border-radius: 10px;
+    box-shadow:0px 0px 5px 5px rgb(151, 151, 148);
+    justify-content: center; 
+}
+img:hover{
+    box-shadow:0px 0px 10px 5px rgba(248, 244, 239, 0.89);
+}
+
+li{
+    color: white;
+    display: inline;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px 2px darkgrey;
+}
+li:hover{
+    box-shadow: 0 0 2px 2px thistle;
+}
+li:visited{
+    color:gray;
+}
