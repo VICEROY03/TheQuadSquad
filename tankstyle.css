@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(30deg,grey,rgb(241,120,142));
+}
+#navbar {
+    position: fixed;
+    left: 0px;
+    top: 0;
+    height: 40px;
+    background-color: #000000;
+    width: 100%;
+    margin: 0 auto;
+}
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#navbar ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#navbar ul li a {
+    text-decoration: none;
+    padding: 10px 40px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+#heading{
+    text-align: center;
+}
+img{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.tanks{
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(226, 143, 182);
+    box-shadow: 3px 3px 4px rgb(228, 116, 116);
+    width: 70%;
+}
+.tanks table tr td p {
+    padding: 20px;
+}
+.tanks table tr td img {
+    border-radius: 5%;
+}
+ 
+
